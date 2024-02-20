@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Maker</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file......... -->
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file with defer attribute........... -->
+</head>
+<body>
+    <header>
+        <h1>Story Maker</h1> <!-- Header of the page........ -->
+    </header>
+    <main id="border"> 
+        <div class="container"> 
+            <div class="story-parts">
+                <!-- Noun.... -->
+                <div class="part">
+                    <button id="field1" class="noun">Noun</button> <!-- Button to select a noun........ -->
+                    <div class="column"> <!-- Container for list of nouns....... -->
+                        <!-- List of nouns -->
+                        <div>The Turkey</div>
+                        <div>Mom</div>
+                        <div>Dad</div>
+                        <div>The Dog</div>
+                        <div>My Teacher</div>
+                        <div>THE Elephant</div>
+                        <div>The Cat</div>
+                    </div>
+                </div>
+                <!-- Action..... -->
+                <div class="part">
+                    <button id="field2" class="action">Action</button> <!-- Button to select an action.......... -->
+                    <div class="column"> <!-- Container for list of actions...... -->
+                        <!-- List of actions......... -->
+                        <div>Sits on</div>
+                        <div>Eats</div>
+                        <div>Kissed</div>
+                        <div>Danced With</div>
+                        <div>Doesn't like</div>
+                        <div>Saw</div>
+                    </div>
+                </div>
+                <!-- Sound Effect....... -->
+                <div class="part">
+                    <button id="field3" class="sound-effect">Sound Effect</button> <!-- Button to select a sound effect.... -->
+                    <div class="column"> <!-- Container for list of sound effects......... -->
+                        <!-- List of sound effects....... -->
+                        <div>A funny</div>
+                        <div>A scary</div>
+                        <div>A goofy</div>
+                        <div>A slimmy</div>
+                        <div>A barking</div>
+                        <div>A fat</div>
+                    </div>
+                </div>
+                <!-- Noun..... -->
+                <div class="part">
+                    <button id="field4" class="noun">Noun</button> <!-- Button to select a noun........ -->
+                    <div class="column"> <!-- Container for list of nouns....... -->
+                        <!-- List of nouns........ -->
+                        <div>girafe</div>
+                        <div>monkey</div>
+                        <div>fish</div>
+                        <div>cow</div>
+                        <div>frog</div>
+                        <div>bug</div>
+                        <div>snake</div>
+                    </div>
+                </div>
+                <!---Place...... -->
+                <div class="part">
+                    <button id="field5" class="place">Place</button> <!-- Button to select a place...... -->
+                    <div class="column"> <!-- Container for list of places........ -->
+                        <!-- List of places......... -->
+                        <div>On the moon</div>
+                        <div>On the chair</div>
+                        <div>in my spagetti</div>
+                        <div>in my shoe</div>
+                        <div>in my soup</div>
+                        <div>on the grass</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Container for actions...... -->
+            <div class="actions">
+                <button id="submit">See your story</button> <!-- Button to see the generated story........-->
+                <button id="randomstory">Random story</button> <!-- Button to generate a random story....... -->
+            </div>
+        </div>
+        <!-- Output to display the generated story........-->
+        <div id="output" class="output"></div>
+    </main>
+</body>
+</html>

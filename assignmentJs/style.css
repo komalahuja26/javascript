@@ -1,0 +1,122 @@
+/* Styling the Font and Body .........*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+/* Styling the Container..... */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+/* Styling the Story Parts....... */
+.story-parts {
+    display: flex;
+    gap: 20px;
+}
+/*Styling the part.....*/
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Styling the button*/
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/*Give style to the column........*/
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 7px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+/*Styling the border.....*/
+#border{
+    width: 70%;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    padding:5%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
+    border: 5px solid black;
+}
+#output {
+    margin-top: 20px;
+}
+
+/* Different background colors for buttons....... */
+#field1{
+    background-color: purple;
+    border: 2px solid black;
+}
+
+#field2 {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#field3 {
+    background-color: green;
+    border: 2px solid black;
+
+}
+
+#field4{
+    background-color: orange;
+    border: 2px solid black;
+
+}
+#field5{
+    background-color: pink;
+    border: 2px solid black;
+
+
+}
+
+/* Hover effect for buttons......... */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for header......... */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    width: 70%;
+    background-color:whitesmoke;
+    margin: 50px auto;
+    padding:5%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
+    border: 8px solid black;
+}
+
+/* Styling for output section......... */
+.output {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
